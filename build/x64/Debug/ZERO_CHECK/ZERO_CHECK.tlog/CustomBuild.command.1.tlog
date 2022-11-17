@@ -1,0 +1,10 @@
+^C:\USERS\BENCH\DESKTOP\BASICENGINE-MASTER\BUILD\CMAKEFILES\2C55ECD03B590C995B9C9671A7788D56\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bench/Desktop/BasicEngine-master -BC:/Users/bench/Desktop/BasicEngine-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/bench/Desktop/BasicEngine-master/build/Game.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

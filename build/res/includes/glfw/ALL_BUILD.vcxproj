@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{279027C9-16A4-398B-9820-5AA7DE87843A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bench\Desktop\BasicEngine-master\res\includes;C:\Users\bench\Desktop\BasicEngine-master\Engine3D;C:\Users\bench\Desktop\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bench\Desktop\BasicEngine-master\res\includes;C:\Users\bench\Desktop\BasicEngine-master\Engine3D;C:\Users\bench\Desktop\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bench\Desktop\BasicEngine-master\res\includes;C:\Users\bench\Desktop\BasicEngine-master\Engine3D;C:\Users\bench\Desktop\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\bench\Desktop\BasicEngine-master\res\includes;C:\Users\bench\Desktop\BasicEngine-master\Engine3D;C:\Users\bench\Desktop\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/bench/Desktop/BasicEngine-master/res/includes/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bench/Desktop/BasicEngine-master -BC:/Users/bench/Desktop/BasicEngine-master/build --check-stamp-file C:/Users/bench/Desktop/BasicEngine-master/build/res/includes/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\cmake_uninstall.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3.pc.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3Config.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/bench/Desktop/BasicEngine-master/res/includes/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bench/Desktop/BasicEngine-master -BC:/Users/bench/Desktop/BasicEngine-master/build --check-stamp-file C:/Users/bench/Desktop/BasicEngine-master/build/res/includes/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\cmake_uninstall.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3.pc.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3Config.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/bench/Desktop/BasicEngine-master/res/includes/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bench/Desktop/BasicEngine-master -BC:/Users/bench/Desktop/BasicEngine-master/build --check-stamp-file C:/Users/bench/Desktop/BasicEngine-master/build/res/includes/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\cmake_uninstall.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3.pc.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3Config.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/bench/Desktop/BasicEngine-master/res/includes/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bench/Desktop/BasicEngine-master -BC:/Users/bench/Desktop/BasicEngine-master/build --check-stamp-file C:/Users/bench/Desktop/BasicEngine-master/build/res/includes/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\cmake_uninstall.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3.pc.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw3Config.cmake.in;C:\Users\bench\Desktop\BasicEngine-master\res\includes\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\ZERO_CHECK.vcxproj">
+      <Project>{3E9B6E7C-8593-32CC-87A6-2B9E6C97767D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\boing.vcxproj">
+      <Project>{87890FA8-1277-3B6A-9AFE-662668EF61EB}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\clipboard.vcxproj">
+      <Project>{0D3573E8-A065-3105-A112-642E925C8BE1}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\cursor.vcxproj">
+      <Project>{C98C6A1B-9F46-3555-BA74-B55F747C3E83}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\empty.vcxproj">
+      <Project>{885623EA-C9B9-3888-AD2F-8DDC5BAD12E2}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\events.vcxproj">
+      <Project>{A1DBB07D-35FA-3119-9D39-8BDC483E2D79}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\gamma.vcxproj">
+      <Project>{12E4444A-94CB-3015-AEF8-E4E4BCC954B8}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\gears.vcxproj">
+      <Project>{B976B3AE-6C11-3786-B429-F9D4FCA0D40E}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\src\glfw.vcxproj">
+      <Project>{07373437-6853-3C76-BA00-119CC781FC7F}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\glfwinfo.vcxproj">
+      <Project>{8ADD9CC1-0DE1-3CD6-AA2F-CD34DDECBEBA}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\heightmap.vcxproj">
+      <Project>{0940CBA0-0DD4-3E5A-B60F-D3615ABADC49}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\icon.vcxproj">
+      <Project>{A45B3B40-C259-3108-BB54-D034C01DE6D4}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\iconify.vcxproj">
+      <Project>{50B73A8B-7A98-3D4A-A083-42EA9232B3D6}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\inputlag.vcxproj">
+      <Project>{18418701-2158-39DD-89AC-87793BD83CE9}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\joysticks.vcxproj">
+      <Project>{4BF0284C-B214-341E-AC2A-8FC3164B0DCE}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\monitors.vcxproj">
+      <Project>{E80301FC-C666-3334-8933-28AEEF722F63}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\msaa.vcxproj">
+      <Project>{DB4ED7A8-9C74-33AC-8F70-E3337BCA3395}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\offscreen.vcxproj">
+      <Project>{5909BED9-7EEF-32FE-9947-034EA2D82289}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\opacity.vcxproj">
+      <Project>{FB57A141-2DDE-3FC2-B169-79EB0E52FEA7}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\particles.vcxproj">
+      <Project>{B7B73EF3-6A4E-3313-905B-C264BA393936}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\reopen.vcxproj">
+      <Project>{718B9BDE-C191-3898-AF72-8EF14823E007}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\sharing.vcxproj">
+      <Project>{2E4846B1-2C79-3955-B2F3-4FDD9507943D}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\simple.vcxproj">
+      <Project>{FDBB0A8E-F1BE-3146-8A05-376C31F66E53}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\splitview.vcxproj">
+      <Project>{22348808-B5BA-3399-9CEF-0D153BE563CF}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\tearing.vcxproj">
+      <Project>{37219352-D921-32FF-8B2C-C7311F7FBAB9}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\threads.vcxproj">
+      <Project>{3BE84835-4789-30DF-9E95-E49FD9703A89}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\timeout.vcxproj">
+      <Project>{F53DE1A0-A219-3735-8F14-8C09CA1B7072}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\title.vcxproj">
+      <Project>{293A9B15-4CEE-3806-9DF1-1504271F6CBE}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\vulkan.vcxproj">
+      <Project>{46CCD051-838C-3259-994C-96561F2DE3DB}</Project>
+      <Name>vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\examples\wave.vcxproj">
+      <Project>{CACC3422-39D9-332E-AAEE-A6E67E17EF21}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\bench\Desktop\BasicEngine-master\build\res\includes\glfw\tests\windows.vcxproj">
+      <Project>{85B9D402-F1E7-3160-8924-8AB19A5E9767}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
